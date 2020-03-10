@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&family=Didact+Gothic&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Sen:wght@400;700&family=Spartan:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../script/script.js"></script>
+    <script src="old_upload.php"></script>
+    <script src="upload.js"></script>
+
+    <title>Resources</title>
+  </head>
+
+  <div id="nav-placeholder"> </div>
+
+  <body>
+    <div id="page-container">
+      <div class="container intro separator">
+        <div class="row justify-content-center">
+          <h2>Files</h2> 
+        </div>
+        <div class="row justify-content-center">
+          <p>description loren ipseum description loren ipseum description loren ipseum description loren ipseum</p>
+        </div>
+      </div>
+
+      <div id="section-white">
+        <div class="container intro">
+        <div class="row justify-content-center">
+          <h2>File Transfer</h2> 
+        </div>
+        <div class="row justify-content-center">
+          <p>description loren ipseum description loren ipseum description loren ipseum description loren ipseum</p>
+        </div>
+
+        <div class="container buttons">
+          <div class="row">
+            <div class="col text-right" id="#uploadButton" data-showbutton="1" style="background-color: clear; padding: 0">
+              <button class="uploadButton active">Upload</button>
+            </div>
+            <div class="col text-left" id="#downloadButton" data-showbutton="2" style="background-color: clear; padding: 0">
+              <button class="downloadButton">Download</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="container buttonContent" data-button="1">
+          <div class="row">
+              <div class="col">
+                  <div class="dragdrop-zone text-center" id="dragdrop-zone">
+                    <div class="container align-items-center" style="vertical-align: center;">
+                    <input type="file" multiple="" accept="image/*" id="fileupload" name="files[]">
+                    <img src="../images/upload.png" alt="upload" class="uploadIcon">
+                    <p>drag and drop files</p>
+                    <p class="small">or</p>
+                    <label class="selectFileButton" for="fileupload">select files</label>
+                    </div>
+                  </div>
+                  <div class="progress hidden">
+                      <div style="width: 0%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar progress-bar-success progress-bar-striped active">
+                          <span class="sr-only">0% Complete</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div id="img-preview" class="row">
+
+          </div>
+      </div>
+
+
+      <div class="containter buttonContent" data-button="2">
+        <p>RIP</p>
+      </div>
+
+<!--
+  <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+
+          <div class="row">
+            <div class="col">
+                <div class="dragdrop-zone text-center">
+                  <form class="uploadForm" method="post" action="" enctype="multipart/form-data">
+                    <input type="file" multiple="" accept="image/*" id="fileupload" name="files[]">
+                    <img src="../images/upload.png" alt="upload" class="uploadIcon">
+                    <p>drag and drop files</p>
+                    <p class="small">or</p>
+                    <label class="selectFileButton" for="fileupload">select files</label>
+                  </form>  
+                </div>
+            </div>
+          </div>
+-->
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div id="footer-placeholder"> </div>
+
+    </div> <!-- end of #page-container -->
+    
+
+
+    <!-- scripts --->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../script/script.js"></script>
+
+
+  </body>
+
+</html>
+
+
+
+<!-- TODO:
+  - replace navbar and footer
+  - maybe if have time, change font of input text of form fields
+  - needs functionality
+-->

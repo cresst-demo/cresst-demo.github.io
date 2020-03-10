@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&family=Didact+Gothic&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Sen:wght@400;700&family=Spartan:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../script/script.js"></script>
+
+    <title>Home</title>
+
+    <script> 
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#top");
+          var $navContent = $("#navItems")
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          $navContent.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          });
+      });
+    </script>
+  </head>
+
+  <body>
+  <div class="landing-background">
+
+    <!-- <div id="nav-placeholder"> </div> -->
+   <div class="container fixed-top header" id="top"> 
+    <nav class="navbar navbar-expand-md navbar-light navtop">
+      <a class="navbar-brand" href="index.html">Logo<span class="sr-only">(current)</span></a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto justify-content-end" id="navItems">
+          <a class="nav-item nav-link active" href="people.html">People</a>
+          <a class="nav-item nav-link" href="purpose.html">Purpose</a>
+          <a class="nav-item nav-link" href="resource.html">Resources</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+    <div class="container h-100 align-items-center center-contentWrapper">
+      <div class="row align-items-center">
+        <div class="col-8 my-auto center-contentText">
+          <h1 class="homeTitle">Lorem Ipsum Lorem Ipsum</h1>
+          <h3 class="homeDescription">description loren ipseum description loren ipseum description loren ipseum description loren ipseum</h3>
+        </div>
+        <!-- icon size 288 × 343 -->
+        <div class="col-4 my-auto mx-auto center-contentImg"> 
+          <img src="../images/icon.png" alt="combined-logo" class="combined-logo">
+        </div>
+      </div>
+    </div>
+
+    </div> <!-- end of landing background -->
+  
+    <div class="company-section container">
+      <div class="row">
+        <div class="col my-auto mx-auto">
+          <a href="http://cresst.org/"><img src="../images/logo.png"></a>
+        </div>
+        <div class="col my-auto mx-auto">
+          <a href="https://codespark.com/"><img src="../images/cs-logo-words.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron intro text-center" id="section-purple-jumbo" style="margin-bottom: 0; padding-top: 10rem;">
+      <h2>Introduction</h2>
+      <p>description loren ipseum description loren ipseum description loren ipseum description loren ipseum</p>
+      
+      <div class="container">
+        <div class="row cards text-center">
+          <div class="col">
+            <img src="../images/rect.png">
+            <h4>Title</h4>
+            <p>description loren ipseum description loren ipseum description loren ipseum description loren ipseum</p>
+          </div>
+          <div class="col">
+            <img src="../images/rect.png">
+            <h4>Title</h4>
+            <p>description loren ipseum description loren ipseum description loren ipseum description loren ipseum</p>
+          </div>
+          <div class="col">
+            <img src="../images/rect.png">
+            <h4>Title</h4>
+            <p>description loren ipseum description loren ipseum description loren ipseum description loren ipseum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container fun-img">
+
+    </div>
+
+    <div id="footer-placeholder"> </div>
+
+    <!-- scripts --->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../script/script.js"></script>
+
+
+  </body>
+
+</html>
+
+
+
+<!-- TODO:
+  - replace navbar and footer
+  - maybe if have time, change font of input text of form fields
+  - contact form needs functionality
+  - checkout jumbotron for cleaner section dividers
+  - navbar collapse state when on landing background (transparent)
+-->

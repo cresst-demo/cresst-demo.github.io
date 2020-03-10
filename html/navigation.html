@@ -1,0 +1,56 @@
+<div class="container fixed-top header scrolled" id="top"> 
+	<nav class="navbar navbar-expand-md navbar-light navtop">
+	  <a class="navbar-brand" href="index.html">Logo<span class="sr-only">(current)</span></a>
+	  
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav ml-auto justify-content-end scrolled" id="navItems">
+	      <a class="nav-item nav-link active" href="people.html">People</a>
+	      <a class="nav-item nav-link" href="purpose.html">Purpose</a>
+	      <a class="nav-item nav-link" href="resource.html">Resources</a>
+	      <a class="nav-item nav-link" href="contact.html">Contact</a>
+	    </div>
+	  </div>
+	</nav>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        var location = window.location.href;
+        $('#navItems a').each(function(){
+            if(location.indexOf(this.href)>-1) {
+               $(this).parent().addClass('active');
+            }
+        });
+    });
+</script>
+
+<!--
+
+<script>
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 100) {
+    document.getElementById("top").style.padding = "0px 1em 0px 1em";
+  } else {
+    document.getElementById("top").style.padding = "2em 1em 0px 1em";
+  }
+});
+</script>
+
+<script>
+$(function(){
+var current = location.pathname;
+$('#navItems a').each(function(){
+    var $this = $(this);
+    // if the current path is like this link, make it active
+    if($this.attr('href').indexOf(current) !== -1){
+        $this.addClass('active');
+    }
+    })
+})
+</script>
+ -->
