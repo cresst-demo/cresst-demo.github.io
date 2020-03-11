@@ -19,9 +19,10 @@ $(document).ready(function () {
     });
 });
 
-$('#navItems').on('click', 'a', function(){
-    $('#navItems a').removeClass('active');
-    $(this).addClass('active');
+
+$(".navbar-nav .nav-link").on("click", function(){
+   $(".nav-link").find(".active").removeClass("active");
+   $(this).addClass("active");
 });
 
 
