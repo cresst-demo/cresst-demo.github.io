@@ -190,6 +190,8 @@ a:hover {
   text-align: left;
   padding-top: var(--space-lg);
   color: var(--color-button-purple);
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
 }
 /****************************************************/
 /******************    NAVBAR     ******************/
