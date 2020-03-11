@@ -157,6 +157,10 @@ a:hover {
   opacity: 0.5;
 }
 
+.description {
+  padding-top: var(--space-sm);
+}
+
 #section-purple-jumbo {
   background-color: var(--color-bkgd-lightpurple);
   padding: var(--space-xxl) 0;
