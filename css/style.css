@@ -150,7 +150,7 @@ a:hover {
 /****************   PAGE   *********************/
 /****************************************************/
 .intro {
-  padding: var(--space-xxxl) 0;
+  padding: var(--space-xxxl) 0 var(--space-xxl) 0;
 }
 
 .intro p {
