@@ -446,7 +446,7 @@ a:hover {
 }
 
 .profileDescription-side {
-  margin-top: var(--space-xs);
+  margin-top: var(--space-xxs);
   margin-right: 1rem;
   font-size: var(--text-sm);
   font-weight: 300;
